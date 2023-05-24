@@ -1,0 +1,347 @@
+.App {
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+    text-align: center;
+    color: #a5054e;
+  }
+  .bimg {
+    /* opacity: 0.8; */
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0%;
+    top: 0%;
+    margin-left: 0%;
+    margin-top: 0%;
+  }
+  .role {
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 37%;
+    height: 35%;
+    width: 30%;
+    background-color: #fff3dc;
+    border-radius: 10px;
+  }
+  #shiksharthi {
+    font-family: "Dancing Script", cursive;
+    font-weight: 800;
+    font-size: 45px;
+    color: #a5054e;
+  }
+  #role1 {
+    cursor: pointer;
+    position: absolute;
+    background-color: #a5054e;
+    color: #fff3dc;
+    left: 15%;
+    top: 75%;
+    height: 30px;
+    width: 120px;
+    font-family: "Playfair Display", serif;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+    border-color: transparent;
+  }
+  #role2 {
+    cursor: pointer;
+    position: absolute;
+    background-color: #a5054e;
+    color: #fff3dc;
+    left: 55%;
+    top: 75%;
+    height: 30px;
+    width: 120px;
+    font-family: "Playfair Display", serif;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+    border-color: transparent;
+  }
+  /* #name{
+    font-family: "Dancing Script", cursive;
+    font-weight: 530;
+    text-align: left;
+    color: #a5054e;
+    left: 0;
+    padding-left: 0%;
+    margin-left: 0%;
+    font-size: 16px;
+  } */
+  /* input{
+    position: absolute;
+    background-color: #a5054e;
+    color: #fff3dc;
+    height: 20px;
+    width: 120px;
+    font-family: "Playfair Display", serif;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 5px;
+    border-color: transparent;
+    left: 0%;
+  } */
+  /* .Register{
+    background-color: #fff3dc;
+    height: 100%;
+    width: 100%;
+  } */
+  .form {
+    background-color: #fff3dc;
+    top: 0%;
+    left: 0%;
+    bottom: 0%;
+    margin-top: 0%;
+    margin-left: 0%;
+    height: 560px;
+    margin-bottom: 0%;
+  }
+  .pos{
+    left: 100px;
+    top: 100px;
+  }
+  .name {
+    left: 50px;
+    top: 130px;
+    position: absolute;
+  }
+  .Mob {
+    left: 400px;
+    top: 130px;
+    position: absolute;
+  }
+  .email {
+    left: 750px;
+    top: 130px;
+    position: absolute;
+  }
+  .dob {
+    left: 50px;
+    top: 250px;
+    position: absolute;
+  }
+  .degree {
+    left: 400px;
+    top: 250px;
+    position: absolute;
+  }
+  .feild {
+    left: 750px;
+    top: 250px;
+    position: absolute;
+  }
+  .exp {
+    left: 50px;
+    top: 370px;
+    position: absolute;
+  }
+  .state {
+    left: 400px;
+    top: 370px;
+    position: absolute;
+  }
+  .city {
+    left: 750px;
+    top: 370px;
+    position: absolute;
+  }
+  label{
+    font-size: 18px;
+    font-weight: 600;
+  }
+  input{
+    background-color:rgb(119, 3, 42);
+    color: #fff3dc;
+    border-color: transparent;
+    border-radius: 5px;
+    height: 20px;
+    width: 200px;
+    text-align: center;
+  }
+  ::placeholder{
+    color: #fff3dc;
+    font-size: 16px;
+    
+  }
+  #navhead{
+    left: 50px;
+    position:absolute;
+    font-size: 30px;
+  }
+  .Nav{
+    background-color:rgb(119, 3, 42);
+    color: #fff3dc;
+    height: 80px;
+  }
+  #navhome{
+    cursor: pointer;
+    position: absolute;
+    left: 450px;
+    top: 35px;
+    height: 30px;
+    width: 80px;
+    font-family: "Playfair Display", serif;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+    border-color: transparent;
+    background-color: #fff3dc;
+    color:  rgb(119, 3, 42);
+  }
+  #navmsg{
+    text-align: right;
+    margin-right: 40px;
+    margin-top: 10px;
+    word-spacing: 8px;
+  }
+  #submit{
+    cursor: pointer;
+    position: absolute;
+    /* left: 850px;
+    top: 900px;
+    height: 30px;
+    width: 80px; */
+    font-family: "Playfair Display", serif;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+    border-color: transparent;
+    background-color: rgb(119, 3, 42);
+    color: #fff3dc ;
+    top: 550px;
+  bottom: 80px;
+  width: 120px;
+  }
+  #login_id{
+    cursor: pointer;
+    position: absolute;
+    font-family: "Playfair Display", serif;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+    border-color: transparent;
+    background-color: rgb(119, 3, 42);
+    color: #fff3dc ;
+    top: 40px;
+  bottom: 0px;
+  width: 100px;
+  left: 250px;
+  height: 25px;
+  }
+  #msg{
+    position: absolute;
+    top: 540px;
+    left: 50px;
+    font-weight: 600;
+    font-size: 16px;
+  }
+  .login{
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 37%;
+    height: 45%;
+    width: 40%;
+    background-color: #fff3dc;
+    border-radius: 10px;
+  }
+  #logout{
+    position: absolute;
+    background-color:black ;
+    border-color: #fff3dc;
+    color: #fff3dc;
+    border-width: 5px;
+    height: 35px;
+    width: 100px;
+    top: 20px;
+    left: 10px;
+    margin-left: 0px;
+    cursor: pointer;
+  }
+  .Uname{
+    position: absolute;
+    width: 120px;
+    height: 20px;
+    /* left: 50px; */
+    margin-left: 47px;
+    top: 160px;
+  }
+  #uinput{
+    position: absolute;
+    margin-left: 142px;
+    margin-top: 85px;
+    bottom: 0px;
+    border-color: transparent;
+  }
+  .pass{
+    position: absolute;
+    width: 120px;
+    height: 20px;
+    /* left: 50px; */
+    margin-left: 40px;
+    top: 220px;
+    left: 0px;
+  }
+  #passinput{
+    position: absolute;
+    margin-left: 150px;
+    margin-top: 0px;
+    bottom: 0px;
+    /* cursor: pointer; */
+  }
+  .display{
+    background-color: #fff3dc;
+    height: 1000px;
+  }
+  .example{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    background-color: rgb(119, 3, 42);
+    color: #fff3dc;
+    padding-bottom: 1px;
+    padding-top: 1px;
+    margin-top: 30px;
+    border-radius: 20px;
+    width: 800px;
+    margin-left: 275px;
+  }
+  .example1{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    background-color: rgb(119, 3, 42);
+    color: #fff3dc;
+    padding-bottom: 1px;
+    padding-top: 1px;
+    margin-top: 30px;
+    border-radius: 20px;
+    width: 800px;
+    margin-left: 275px;
+  }
+  .Score{
+    border-color: #fff3dc;
+    position: absolute;
+    font-family: None, Bold;
+    font-weight: 800;
+    font-size: 45px;
+    text-align: center;
+    color: #fff3dc;
+    top: 150px;
+    left: 350px;
+    bottom: 0px;
+  }
+  .Score1{
+    border-color: #fff3dc;
+    position: absolute;
+    font-family: None, Bold;
+    font-weight: 800;
+    font-size: 45px;
+    text-align: center;
+    color: #fff3dc;
+    top: 510px;
+    left: 350px;
+    bottom: 0px;
+  }
